@@ -8,8 +8,33 @@ body {
     font-size: 1.3em;
 }
 
-.title {
 
+
+.index-title {
+
+}
+
+.navbar {
+    display: flex;
+    background-color: saddlebrown;
+    padding: 7px;
+    margin: 0;
+    border: 0;    
+}
+
+.navlist {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navlist li a {
+    padding: 7px;
+    background-color: saddlebrown;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 .recipe-list {
