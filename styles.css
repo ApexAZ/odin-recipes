@@ -15,27 +15,37 @@ body {
 }
 
 .navbar {
-    display: flex;
     background-color: saddlebrown;
-    padding: 7px;
-    margin: 0;
-    border: 0;    
+    padding: 8px;
+    margin: -8px; 
+    box-shadow: 0 0 8px rgba(0,0,0,.1); 
+    display: flex; 
+    justify-content: space-between;
 }
 
 .navlist {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     list-style: none;
+    gap: 16px;
 }
 
 .navlist li a {
-    padding: 7px;
+    /*padding: 15px;*/
     background-color: saddlebrown;
     color: white;
     text-decoration: none;
     font-weight: 400;
 }
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
 
 .recipe-list {
 
