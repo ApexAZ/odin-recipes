@@ -5,17 +5,14 @@ h1 {
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3em;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
     min-height: 100vh;
-}
+    }
 
 .index-title {
 
@@ -23,7 +20,7 @@ body {
 
 .navbar {
     background-color: saddlebrown;
-    padding: 8px;
+    padding: 2px 0 8px 0;
     margin: -8px;
     box-shadow: 0 0 8px rgba(0,0,0,.1); 
     display: flex; 
@@ -53,9 +50,9 @@ body {
 
 .footer {
     background-color: rgb(246, 174, 230);
-    padding: 8px;
+    padding: 0;
     margin: -8px; 
-    box-shadow: 0 0 8px rgba(0,0,0,.1); 
+    /*box-shadow: 0 0 8px rgba(0,0,0,.1);*/
     display: flex; 
     justify-content: center;
   }
@@ -66,6 +63,7 @@ body {
     padding: 10px;
     list-style: none;
     gap: 16px;
+    justify-content: center;
   }
 
 .footer-list li a {
